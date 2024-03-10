@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Converter</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <script src="./script2.js" defer></script>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="section-one">
+        <div class="section-heading">
+          <h3>Multiple Converter</h3>
+        </div>
+        <div class="section-input">
+          <label for="select-item">Select Category</label><br />
+          <select name="select-item" id="select-category">
+            <option value="mass">Mass</option>
+            <option value="area">Area</option>
+            <option value="data-transfer-rate">Data Transfer Rate</option>
+            <option value="length">Length</option>
+            <option value="volume">Volume</option>
+            <option value="speed">Speed</option>
+          </select>
+        </div>
+      </div>
+      <div class="section-two">
+        <div class="input-container">
+          <div class="input-box-1">
+            <input
+              type="text"
+              name="text"
+              id="input-box-1"
+              class="input-style"
+            />
+            <div class="select-item">
+              <select
+                name="select-item"
+                id="select-input-1"
+                class="input-style"
+              >
+                <option value="mass">Mass</option>
+                <option value="area">Area</option>
+                <option value="data-transfer-rate">Data Transfer Rate</option>
+                <option value="length">Length</option>
+                <option value="volume">Volume</option>
+                <option value="speed">Speed</option>
+              </select>
+            </div>
+          </div>
+          <!-- Equal Box  -->
+          <div class="equal-box">=</div>
+          <div class="input-box-2">
+            <input
+              type="text"
+              name="text"
+              id="input-box-2"
+              class="input-style"
+            />
+            <div class="select-item">
+              <select
+                name="select-item"
+                id="select-input-2"
+                class="input-style"
+              >
+                <option value="mass">Mass</option>
+                <option value="area">Area</option>
+                <option value="data-transfer-rate">Data Transfer Rate</option>
+                <option value="length">Length</option>
+                <option value="volume">Volume</option>
+                <option value="speed">Speed</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formula-container">
+        <strong>Formula:</strong>
+        <span id="formula-text">Lorem ipsum dolor sit amet</span>
+      </div>
+    </main>
+  </body>
+</html>
